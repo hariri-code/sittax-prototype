@@ -1,7 +1,5 @@
 const postInput = document.getElementById("postInput");
-
 const postBtn = document.getElementById("postBtn");
-
 const postList = document.getElementById("postList");
 
 const dummyPosts = [
@@ -44,9 +42,7 @@ function renderPosts() {
     .map((post) => {
       return `
         <div class="post">
-
           <div class="post-header">
-
             <img src="${post.avatar}">
 
             <div class="post-user">
@@ -77,8 +73,8 @@ postBtn.addEventListener("click", function () {
 
   const newPost = {
     id: Date.now(),
-    name: "Rifki Bilal",
-    username: "@rifki",
+    name: "Hariri",
+    username: "@rarariri",
     avatar: "https://i.pravatar.cc/50?img=15",
     content: content,
   };
