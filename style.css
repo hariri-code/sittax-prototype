@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+body {
+  color: purple;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 25px;
+  border-right: 1px solid #2d3748;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  color: black;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  padding: 15px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu i {
+  margin-right: 10px;
+}
+
+.create-btn {
+  margin-top: 30px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: rgb(232, 81, 151);
+  color: white;
+  cursor: pointer;
+}
+
+.feed {
+  flex: 1;
+  border-right: 1px solid #2d3748;
+}
+
+.feed-header {
+  padding: 20px;
+  border-bottom: 1px solid #2d3748;
+}
+
+.create-post {
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  border-bottom: 1px solid #2d3748;
+}
+
+.create-post img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post-input-area {
+  flex: 1;
+}
+
+textarea {
+  width: 100%;
+  min-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  resize: none;
+  font-size: 16px;
+}
+
+#postBtn {
+  margin-top: 10px;
+  float: right;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  background: rgb(232, 81, 151);
+  color: white;
+  cursor: pointer;
+}
+
+.logout {
+  margin-top: auto;
+}
+
+/* PROFILE */
+
+.profile-page{
+  flex:1;
+  border-right:1px solid #2a2a2a;
+}
+
+.profile-header{
+  padding:15px;
+}
+
+.back-button{
+  margin-bottom:15px;
+  font-weight:bold;
+}
+
+.cover{
+  height:140px;
+  border-radius:10px;
+  background:linear-gradient(
+    135deg,
+    green,
+    purple,
+    pink
+  );
+}
+
+.profile-info{
+  position:relative;
+  padding-top:50px;
+}
+
+.profile-avatar{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  border:4px solid black;
+
+  position:absolute;
+  top:-45px;
+  left:15px;
+}
+
+.edit-btn{
+  position:absolute;
+  right:0;
+  top:10px;
+  background:rgb(232, 81, 151);
+  color:white;
+  border:1px solid grey;
+  padding:8px 15px;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+.username{
+  color:pink;
+  margin-top:5px;
+}
+
+.bio{
+  margin-top:10px;
+}
+
+.follow-info{
+  margin-top:10px;
+  display:flex;
+  gap:20px;
+  color:black;
+}
+
+.tabs{
+  display:flex;
+  margin-top:20px;
+}
+
+.tabs button{
+  flex:1;
+  background:none;
+  color:black;
+  border:none;
+  padding:15px;
+  cursor:pointer;
+}
+
+.tabs .active{
+  border-bottom:3px solid rgb(232, 81, 151);
+}
+
+.post {
+  padding: 20px;
+  border-bottom: 1px solid #2d3748;
+}
+
+.post span {
+  color: pink;
+}
+
+.post-header {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.post-header img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.post-user h4 {
+  margin-bottom: 4px;
+}
+
+.post-user span {
+  color: pink;
+  font-size: 14px;
+}
+
+.post-content {
+  margin-left: 57px;
+  line-height: 1.6;
+}
+
+.rightbar {
+  width: 300px;
+  padding: 20px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.banner {
+  height: 90px;
+  background: linear-gradient(45deg, green, purple);
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -40px;
+  border: 4px solid #1f2937;
+}
+
+.profile-card h3 {
+  margin-top: 10px;
+}
+
+.profile-card p {
+  color: pink;
+  margin-bottom: 20px;
+}
+
+.suggest-card h3{
+  margin-bottom:15px;
+}
+
+.suggest-user{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:15px;
+}
+
+.user-info{
+  display:flex;
+  gap:10px;
+}
+
+.user-info img{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+}
+
+.user-info span{
+  color:pink;
+  font-size:13px;
+}
+
+.suggest-user button{
+  background: rgb(232, 81, 151);
+  color:white;
+  border:1px solid gray;
+  padding:6px 12px;
+  border-radius:20px;
+  cursor:pointer;
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <h1 class="logo">sittax</h1>
+
+        <ul class="menu">
+          <li><i class="fa-solid fa-house"></i> Home</li>
+          <li><i class="fa-solid fa-magnifying-glass"></i> Search</li>
+          <li><i class="fa-solid fa-user-group"></i> Follows</li>
+          <li><i class="fa-solid fa-user"></i><a href="profile.html">Profile</a></li>
+        </ul>
+
+        <button class="create-btn">Create Post</button>
+
+        <div class="logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <a href="login.html">Logout</a>
+        </div>
+
+      </aside>
+
+      <main class="feed">
+        <div class="feed-header">
+          <h2>Home</h2>
+        </div>
+
+        <div class="create-post">
+          <img src="https://i.pravatar.cc/50?img=15" alt="" />
+
+          <div class="post-input-area">
+            <textarea
+              id="postInput"
+              placeholder="What's happening?!"
+            ></textarea>
+
+            <button id="postBtn">Post</button>
+          </div>
+        </div>
+
+        <div id="postList"></div>
+      </main>
+
+      <aside class="rightbar">
+        <div class="profile-card">
+          <div class="banner"></div>
+
+          <img
+            class="profile-picture"
+            src="https://i.pravatar.cc/80?img=15"
+            alt=""
+          />
+
+          <h3>Hariri</h3>
+          <p>@rarariri</p>
+
+        </div>
+      </aside>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

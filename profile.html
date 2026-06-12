@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <h1 class="logo">sittax</h1>
+
+        <ul class="menu">
+          <li><i class="fa-solid fa-house"></i><a href="home.html">Home</a></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i> Search</li>
+          <li><i class="fa-regular fa-heart"></i> Follows</li>
+          <li><i class="fa-regular fa-user"></i> Profile</li>
+        </ul>
+
+        <button class="create-btn">Create Post</button>
+
+        <div class="logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <a href="login.html">Logout</a>
+        </div>
+      </aside>
+
+      <main class="profile-page">
+        <div class="profile-header">
+          <div class="back-button">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="home.html">Home</a>
+          </div>
+
+          <div class="cover"></div>
+
+          <div class="profile-info">
+            <img
+              src="https://i.pravatar.cc/50?img=15"
+              alt=""
+              class="profile-avatar"
+            />
+
+            <button class="edit-btn">Edit Profile</button>
+
+            <h2>Hariri</h2>
+            <p class="username">@rarariri</p>
+            <p class="bio">penghuni dunia lain.</p>
+
+            <div class="follow-info">
+              <span>1 Following</span>
+              <span>1k Followers</span>
+            </div>
+          </div>
+
+          <div class="tabs">
+            <button class="active">All Post</button>
+            <button>Media</button>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/50?img=15" alt="" />
+
+            <div>
+              <h4>Hariri</h4>
+              <span>@rarariri · 8h</span>
+            </div>
+          </div>
+
+          <p>ikan kain kin kian kan in an</p>
+        </div>
+
+        <div class="post">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/50?img=15" alt="" />
+
+            <div>
+              <h4>Hariri</h4>
+              <span>@rarariri · 15h</span>
+            </div>
+          </div>
+
+          <p>
+            nih orang tadi gue minta tolong fotoin gue di mall malah dia selfie, aneh bener
+          </p>
+
+          <img
+            src="https://i.pravatar.cc/50?img=3"
+            alt=""
+            class="post-image"
+          />
+        </div>
+      </main>
+
+      <aside class="rightbar">
+        <div class="suggest-card">
+          <h3>Suggested for you</h3>
+
+          <div class="suggest-user">
+            <div class="user-info">
+              <img src="https://i.pravatar.cc/40?img=10" />
+              <div>
+                <h4>Mario PraReformasi</h4>
+                <span>@marmarmuahal</span>
+              </div>
+            </div>
+            <button>Follow</button>
+          </div>
+
+          <div class="suggest-user">
+            <div class="user-info">
+              <img src="https://i.pravatar.cc/40?img=11" />
+              <div>
+                <h4>Bapaknya Mukhlis</h4>
+                <span>@plisdeh</span>
+              </div>
+            </div>
+            <button>Follow</button>
+          </div>
+
+          <div class="suggest-user">
+            <div class="user-info">
+              <img src="https://i.pravatar.cc/40?img=12" />
+              <div>
+                <h4>Yono Quantumania</h4>
+                <span>@yontaiviv</span>
+              </div>
+            </div>
+            <button>Follow</button>
+          </div>
+
+          <div class="suggest-user">
+            <div class="user-info">
+              <img src="https://i.pravatar.cc/40?img=13" />
+              <div>
+                <h4>Michael Jojon</h4>
+                <span>@jordanlovers</span>
+              </div>
+            </div>
+            <button class="btn-follow">Follow</button>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+
+  </body>
+</html>
